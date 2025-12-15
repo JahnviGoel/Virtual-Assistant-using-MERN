@@ -1,5 +1,5 @@
-import mongoose, { Types } from "mongoose";
-const userSchema= new mongooseSchema
+import mongoose from "mongoose";
+const userSchema= new mongoose.Schema
 (
   {
   name:{
@@ -22,7 +22,7 @@ const userSchema= new mongooseSchema
     type:String
   },
   history:[
-    {ype:String}
+    {type:String}
   ]
   },{timestamps:true}
 )
