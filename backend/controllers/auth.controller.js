@@ -4,6 +4,7 @@ import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 
 //we are making sign up controller
+console.log("Auth controller loaded");
 
 export const signUp=async(req,res)=>
 {
